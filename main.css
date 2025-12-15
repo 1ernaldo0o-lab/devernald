@@ -197,5 +197,17 @@ body[data-theme="dark"] .typing {
    }
 }
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang-"pt-BR">
 <head>
+<meta charset-"UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>meu Link.treec/titlex
+<link rel-"stylesheet" href-"css/main.css">
+</head>
+<body>
+<canvas id-"rain-bg"></canvas>
+<div class-"container">
+<button id-"toggle-theme" aria-label="Alternar tema">🌙</button>
+<ing src-"Imagem/Dev. jpg" alt-"Sua Foto" class-"profile-pic">
+<h1>Dev.D</h1>
+<ul class="links">
