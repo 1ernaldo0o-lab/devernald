@@ -211,3 +211,18 @@ body[data-theme="dark"] .typing {
 <ing src-"Imagem/Dev. jpg" alt-"Sua Foto" class-"profile-pic">
 <h1>Dev.D</h1>
 <ul class="links">
+<lixa href-"https://www.instagram.com/ernaldo0o2/profilecard/?igsh=d2s0OwxsbjA1OTRp" target="_blank">Instagram</ax</li>
+<li>ca href-"https://github.com/DevADOBAN" target="_blank">GitHub</a></li>
+<li1>a href-"https://www.linkedin.com/in/ernaldo?utm_source=share&utm_campaign=share_viagutm_content=profile&utm_medium-android_app <li>a href-"https://x.com/ADGBan" target="_blank">X (Twitter)</ax</li> </ul> </div> <script> const btn = document. getElementbyId("toggle-theme'); const prefersDark = window. matchMedia(" (prefers-color-scheme: dark)").matches;
+" target="_blank">LinkedIn</ax></li>
+<li>a href-"https://x.com/ADGBan" target="_blank">X (Twitter)</ax</li>
+</ul>
+</div>
+<script>
+const btn = document. getElementbyId("toggle-theme');
+const prefersDark = window. matchMedia(" (prefers-color-scheme: dark)").matches;
+function setTheme(theme) {
+   document. bodv.dataset.theme = theme;
+   btn.textContent = theme === 'dark' ? '秦' :'C";
+   localStorage.setItem("theme', theme);
+}
