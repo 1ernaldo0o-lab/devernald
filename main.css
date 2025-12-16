@@ -226,3 +226,15 @@ function setTheme(theme) {
    btn.textContent = theme === 'dark' ? '秦' :'C";
    localStorage.setItem("theme', theme);
 }
+const savedtheme = localStorage.getItem('theme');
+setTheme(savedTheme ? savedTheme : (prefersDark ? 'dark' : 'light'));
+
+// Chuva pixelada
+const canvas = document.getElementById("rain-bg');
+const ctx = canvas.getContext('2d');
+let drops= [];
+
+function resizeCanvas() {
+   canvas.width = window.innerWidth;
+   canvas.height = window.innerHeight;
+}
